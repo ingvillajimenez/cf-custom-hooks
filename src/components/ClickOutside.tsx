@@ -1,11 +1,19 @@
 import { useRef, useState } from "react";
 import { useOnClickOutside } from "../hooks/useOnClickOutside";
+import { useAddMenuOpenClass } from "../hooks/useAddMenuOpenClass";
 
 function ClickOutside() {
   const [isOpen, setIsOpen] = useState(false);
 
   const listRef = useRef<HTMLUListElement>(null);
   useOnClickOutside(listRef, () => setIsOpen(false));
+
+  useAddMenuOpenClass(listRef);
+
+  // useEffect(() => {
+  // listRef.current?.style.setProperty("background-color", "lightgray");
+  //   listRef.current?.classList.add("menu-open");
+  // }, []);
 
   return (
     <section>
