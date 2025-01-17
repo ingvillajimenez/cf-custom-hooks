@@ -3,7 +3,7 @@ import ForceUpdate from "./components/ForceUpdate";
 import Toggle from "./components/Toggle";
 import LocalStorage from "./components/LocalStorage";
 import IsOnline from "./components/IsOnline";
-// import Previous from "./components/Previous";
+import Previous from "./components/Previous";
 // import Interval from "./components/Interval";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <Toggle />
       <LocalStorage />
       <IsOnline />
-      {/* <Previous />
-      <Interval /> */}
+      <Previous />
+      {/* <Interval /> */}
     </main>
   );
 }
