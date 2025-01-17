@@ -1,5 +1,5 @@
 import ClickOutside from "./components/ClickOutside";
-// import ForceUpdate from "./components/ForceUpdate";
+import ForceUpdate from "./components/ForceUpdate";
 // import Toggle from "./components/Toggle";
 // import LocalStorage from "./components/LocalStorage";
 // import IsOnline from "./components/IsOnline";
@@ -10,8 +10,8 @@ function App() {
   return (
     <main>
       <ClickOutside />
-      {/* <ForceUpdate />
-      <Toggle />
+      <ForceUpdate />
+      {/* <Toggle />
       <LocalStorage />
       <IsOnline />
       <Previous />
