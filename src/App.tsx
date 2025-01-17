@@ -4,7 +4,7 @@ import Toggle from "./components/Toggle";
 import LocalStorage from "./components/LocalStorage";
 import IsOnline from "./components/IsOnline";
 import Previous from "./components/Previous";
-// import Interval from "./components/Interval";
+import Interval from "./components/Interval";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <LocalStorage />
       <IsOnline />
       <Previous />
-      {/* <Interval /> */}
+      <Interval />
     </main>
   );
 }
