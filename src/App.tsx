@@ -1,6 +1,6 @@
 import ClickOutside from "./components/ClickOutside";
 import ForceUpdate from "./components/ForceUpdate";
-// import Toggle from "./components/Toggle";
+import Toggle from "./components/Toggle";
 // import LocalStorage from "./components/LocalStorage";
 // import IsOnline from "./components/IsOnline";
 // import Previous from "./components/Previous";
@@ -11,8 +11,8 @@ function App() {
     <main>
       <ClickOutside />
       <ForceUpdate />
-      {/* <Toggle />
-      <LocalStorage />
+      <Toggle />
+      {/* <LocalStorage />
       <IsOnline />
       <Previous />
       <Interval /> */}
